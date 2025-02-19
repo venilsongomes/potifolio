@@ -47,7 +47,7 @@ li{
     margin-right: 30px;
     cursor: pointer;
 }
-li:hover{
+nav ul li a:hover{
     color: red;
     transition: 0.5s;
 }
@@ -155,7 +155,7 @@ transition: 0.5s;
     padding-bottom: 50px;
     padding-left: 30px;
     padding-right: 80px;
-    
+
 }
 .card p{
     color: white;
