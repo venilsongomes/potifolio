@@ -31,11 +31,11 @@ nav{
 }
 .portifolio{
     color: #ffff;
-    font-size: 35px;
+    font-size: 40px;
     font-weight: 500;
 }
 .portifolio span{
-    color: red;
+    color: #db3b3b;
     
 }
 
@@ -48,7 +48,7 @@ li{
     cursor: pointer;
 }
 nav ul li a:hover{
-    color: red;
+    color: #db3b3b;
     transition: 0.5s;
 }
 
@@ -58,14 +58,14 @@ nav ul li a:hover{
 }
 .meu-nome{
     position: absolute;
-    top: 50%;
-    left: 10%;
+    top: 45%;
+    left: 15%;
 }
 h1{
     color: white;
 }
 h1 span{
-    color: red;
+    color: #db3b3b;
 }
 .meu-nome h3{
  color: white;
@@ -75,13 +75,6 @@ h1 span{
 .meu-nome h1{
     font-size: 75px;
 }
-.projetos img{
-    width: 300px;
-    height: 300px;
-   
-}
-
-
 section{
     display: flex;
     align-items: center;
@@ -90,12 +83,13 @@ section{
     color: white;
 
 }
-section img{
-    
+.projetos img{
     border-radius: 100%;
     border: 2px solid #db3b3b;
-    margin-right: 30px;
+    margin-right: 40px;
     margin-left: 40px;
+    height: 300px;
+    width: 300px;
 }
 section div h2{
     color: white;
@@ -105,12 +99,10 @@ section div p{
     color: rgb(235, 195, 195);
     margin-top: 15px;
     margin-bottom: 60px;
-    
-    
 }
 section div button{
     color: white;
-    background: red;
+    background: #db3b3b;
     height: 60px;
     width: 160px;
     font-size: 18px;
@@ -118,7 +110,7 @@ section div button{
 }
 section div button:hover{
 background-color: #000000;
-border:  2px solid red;
+border:  2px solid #db3b3b;
 transition: 0.5s;
 }
 
@@ -171,11 +163,12 @@ transition: 0.5s;
     transition: 0.5s;
     text-decoration: none;
 
+
 }
 
 .card a:hover{
  background-color: transparent;
- border: 6px solid red;
+ border: 6px solid #db3b3b;
 
 }
 
@@ -234,4 +227,109 @@ footer p{
 .social :hover{
     transform: scale(1.3);
     transition: 0.5s;
+}
+
+
+.img-robo{
+width: 300px;
+height: 300px;
+position: absolute;
+top: 0%;
+left: 150%;
+}
+
+@media(max-width: 700px){
+    .Principais h2{
+        font-size:  30px;
+        padding-bottom: 0;
+        padding-top: 1;
+        
+    }
+    .Principais {
+       padding-bottom: 25px;
+       padding-top: 0;
+        
+    }
+    nav{
+        flex-direction: column;
+    }
+    .portifolio{
+        margin-bottom: 20px;
+    }
+    .projetos img{
+        display: none;
+    }
+    .projetos{
+        padding-top: 25px;
+        padding-bottom:25px ;
+    }
+    .projetos h2{
+        font-size: 20px;
+        text-align: left;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .card p{
+        display: none;
+    }
+ .meu-nome h1{
+    font-size: 50px;
+    margin-left: 0;
+    margin-right: 0;
+    text-align: center;
+ }
+ .meu-nome h3{
+    font-size: 20px;
+ }
+ .meu-nome{
+position: absolute;
+top: 25%;
+ 
+ } 
+    .card a{
+        padding: 5px 10px;
+        font-size: 10px;
+        justify-items: center;
+    }
+    .card{
+        height: 150px;
+        width: 150px;
+        display: flex;
+        margin-left: 5px;
+        margin-right: 5px;
+        justify-items: center;
+        flex-direction: column;
+       
+    }
+    .card img{
+     height: 50px;
+     display: flex;
+     flex-direction: column;
+     margin-top: 15px;
+     margin-bottom: 15px;
+     margin-left: 10px;
+     margin-right: 10px;
+    }
+    .principal{
+        height:50vh;
+    }
+    footer{
+ padding-top: 50px;
+ padding-bottom: 50px;
+    }
+    footer h5{
+font-size: 20px;
+    }
+    footer p{
+        font-size: 20px;
+        margin-bottom: 20px;
+        margin-top: 10px;
+    }
+    .card-projeto{
+        padding-top: 0px;
+    }
+    .img-robo{
+        display: none;
+    }
+    
 }
