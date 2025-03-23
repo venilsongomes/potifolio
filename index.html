@@ -1,107 +1,130 @@
-<!doctype html>
-<html lang="pt-br">
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
-  <meta charset="UTF-8" />
-
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" type="text/css" href="stylo.css" media="screen" />
-  <title>Venilson Rocha</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>teste-css</title>
+    <link rel="stylesheet" href="stylo.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap" rel="stylesheet">
 </head>
 
 <body>
 
-  <div class="principal" id="home">
-
-    <nav>
-      <h2 class='portifolio'>Portfo<span>lio</span></h2>
+   
 
 
-      <ul class="menu">
-        <li class="link-menu"> <a href="#home">Home </a> </li>
-        <li> <a href="#sobre">Sobre </a></li>
-        <li> <a href="#Projetos-id">Projetos </a> </li>
-        <li> <a href="#fale-comigo"> Fale Comigo </a></li>
-      </ul>
 
+    <nav class="menu" id="menu">
+
+   
+        <div class="dropdown">
+
+            <button class="dropbtn"><img src="./img/drop.svg" alt=""></button>
+
+            <div class="dropdown-content">
+             
+            <a href="#home">
+                <li>Home</li>
+            </a>
+            <a href="#sobre">
+                <li>Sobre</li>
+            </a>
+            <a href="#projetos">
+                <li>Projetos</li>
+            </a>
+            <a href="#contato">
+                <li>Fale Comigo</li>
+            </a>
+
+            </div>
+
+          </div>
+            
+        
+        <ul class="menuzin">
+
+            <a href="#home">
+                <li>Home</li>
+            </a>
+            <a href="#sobre">
+                <li>Sobre</li>
+            </a>
+            <a href="#projetos">
+                <li>Projetos</li>
+            </a>
+            <a href="#contato">
+                <li>Fale Comigo</li>
+            </a>
+        </ul>
     </nav>
-  </div>
 
-  <div class="meu-nome">
+    <section class="home" id="home">
+        <h1> Venilson <span>Rocha </span></h1>
+        <h2> Dev Full Stack em Formação </h2>
+    </section>
 
-    <h1>Venilson<span> Rocha</span></h1>
-    <h3>Dev Full Stack em Formação</h3>
+    <section class="Sobre" id="sobre">
 
-    
-  </div>
+        <div class="foto">
 
-  <section class="projetos" id="sobre">
-    <img src=".\src\assets\eu-portifolio.svg" alt="" />
-    <div>
-      <h2>Sobre Mim</h2>
+            <img src=".\img\pai.svg" alt="">
+        </div>
 
-      <p>Olá! Sou um estudante entusiasmado de Sistemas de Informação com um profundo amor pelas mais recentes inovações
-        tecnológicas.
-        Minha jornada no mundo da programação começou com as bases sólidas do JavaScript, Java POO e C, e
-        evoluiu para abraçar frameworks modernos como o React e a versatilidade do Node.
-        Se você está buscando um
-        desenvolvedor que combina paixão, habilidade e dedicação para impulsionar projetos
-        inovadores, adoraria conectar-me com você.
-        Vamos explorar juntos como podemos criar soluções tecnológicas que
-        impulsionem o futuro!</p>
+        <div class="dv">
+            <h1> Sobre Mim </h1>
+            <p>
+                Olá! Sou um estudante entusiasmado de Sistemas de Informação com um profundo amor pelas mais recentes
+                inovações tecnológicas. Minha jornada no mundo da programação começou com as bases sólidas do
+                JavaScript, Java POO e C, e evoluiu para abraçar frameworks modernos como o React e a versatilidade do
+                Node. Se você está buscando um desenvolvedor que combina paixão, habilidade e dedicação para impulsionar
+                projetos inovadores, adoraria conectar-me com você. Vamos explorar juntos como podemos criar soluções
+                tecnológicas que impulsionem o futuro!</p>
+
+            <button> Saiba Mais <img src=".\img\seta.png" alt=""> </button>
+        </div>
+    </section>
+
+    <div class="projeto">
+        <h1> Principais Projetos </h1>
+
+        <section class="projetos" id="projetos">
+
+            <div class="card">
+
+            </div>
+
+            <div class="card">
+                <h1>Jogo da Velha</h1>
+                <p> Esse Jogo da Velha, foi o primeiro projeto feito por min, em meados de 2022 na pandemia, sem muitas
+                    coisas pra fazer, decidir realizar esse pequeno desafio.</p>
+                <a href=" https://venilsongomes.github.io/joga_da_velha/" target="_blank"><button> Saiba Mais<img
+                            src=".\img\seta.png" alt=""> </button></a>
+
+            </div>
+            <div class="card">
+
+            </div>
+
+        </section>
     </div>
-  </section>
 
+    <footer class="footer" id="contato">
+        <p> "Aerodinamicamente o corpo de uma abelha não é feito para voar. O bom é que as abelhas não sabem disto."
+            <br>
+            <span> &copy; Venilson Rocha - 2025 </span>
+        </p>
 
+        <div class="social">
+            <a href="https://venilsongomes.github.io/" target="_blank"> <img src=".\img\git.svg" alt=""></a>
+            <a href="https://www.linkedin.com/in/venilsongomes/" target="_blank"> <img src=".\img\zap.svg" alt=""></a>
+            <a href=""> <img src=".\img\likendin.svg" alt=""></a>
 
-  <div class="Principais" id="Projetos-id">
-    <h2>Principais Projetos </h2>
-
-    <div class="card-projeto">
-
-      <div class='card'>
-        <img src=".\src\assets\jogo.jpeg" alt="" />
-
-        <p> Em Construção</p>
-        <a> Ver Projetos</a>
-      </div>
-
-      <div class='card'>
-
-        <img src=".\src\assets\jogo-velha.png" alt="" />
-        <h5> </h5>
-
-        <p>Esse Jogo da Velha, foi o primeiro projeto feito por min, em meados de 2022 na pandemia, sem muitas coisas pra fazer, decidir
-          realizar esse pequeno desafio. </p>
-        <a href=" https://venilsongomes.github.io/joga_da_velha/" target="_blank"> Ver Projetos</a>
-      </div>
-
-
-      <div class='card'>
-        <img src=".\src\assets\jogo.jpeg" alt="" />
-
-        <p> Em Construção</p>
-        <a> Ver Projetos</a>
-      </div>
-
-    </div>
-  </div>
-
-  <div>
-    <footer id="fale-comigo">
-      <h5> &copy; Venilson Rocha </h5>
-      
-
-      <div class="social">
-        <a href="https://www.linkedin.com/in/venilsongomes" target="_blank"> <img src="./src/assets/linkedin.png"
-            alt=""></a>
-        <a> <img src="./src/assets/telefone.png" alt=""></a>
-
-        <a href="https://github.com/venilsongomes/" target="_blank"> <img src="./src/assets/github.png" alt=""></a>
-
-      </div>
+        </div>
     </footer>
-  </div>
+
 </body>
 
 </html>
